@@ -13,6 +13,9 @@ class Robot:
     def say_hello(self):
         print("Hello, my name is " + self.name)
         print("I will provide you with some information about famous scientists.")
+        print("I will tell you which scientist I am collecting data for, their age, and a paragraph about them.")
+        print("At the end of my research, I will give you the option to save the data as a csv file.")
+        print("Here we go!")
         print('_' * 40)
 
     def say_goodbye(self):
@@ -51,4 +54,4 @@ class Robot:
     def download_data(self, all_scientist_info):
         all_scientist_info.to_csv("scientist_info.csv")
         file_path = os.getcwd()
-        print("Scientist info has been saved to csv file with name:" + file_path + "/scientist_info.csv")
+        print("Scientist info has been saved to csv file:" + file_path + "/scientist_info.csv")
