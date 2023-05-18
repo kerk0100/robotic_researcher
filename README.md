@@ -1,8 +1,9 @@
 # Description
 To run the program, enter commands: 
-* ```pip install -r requirements.txt```
+* ```pip3 install -r requirements.txt```
 * ```python3 main.py```
 * Note: program uses python 3.9.6
+* Note: If you have conflicting versions, you may need sudo privileges: ```sudo pip3 install -r requirements.txt```
 
 The program will tell the user what it is about to do (i.e. provide information about each scientist) and then
 iterate through the list ```SCIENTISTS```. The program opens a headless Chrome browser, searches through the wikipedia
